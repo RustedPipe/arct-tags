@@ -66,3 +66,6 @@ build: ## Build Go binaries
 snapshot: ## Goreleaser - Build Snapshot
 	goreleaser build --snapshot --rm-dist
 
+release: ## Goreleaser - Release
+	goreleaser release --rm-dist
+
