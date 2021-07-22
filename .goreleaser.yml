@@ -9,6 +9,7 @@ builds:
       - windows
       - darwin
     main: ./cmd/arc
+    binary: arc
 archives:
   - replacements:
       darwin: Darwin
