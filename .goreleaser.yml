@@ -29,9 +29,9 @@ changelog:
 release:
   github:
     owner: RustedPipe
-    name: arct-tags
+    name: arct
   draft: false
-  prerelease: true
+  prerelease: false
   name_template: "v{{.Version}}"
   disable: false
 
