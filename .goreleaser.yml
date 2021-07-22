@@ -26,3 +26,12 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+release:
+  github:
+    owner: RustedPipe
+    name: arct-tags
+  draft: true
+  prerelease: true
+  name_template: "v{{.Version}}"
+  disable: true
+
