@@ -33,5 +33,5 @@ release:
   draft: false
   prerelease: false
   name_template: "v{{.Version}}"
-  disable: true
+  disable: false
 
